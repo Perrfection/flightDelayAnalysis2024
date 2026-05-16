@@ -103,6 +103,7 @@ def delay_totals_by_type_per_carrier(df):
 
     return dtbtpc
 
+
 # Compute all analytics and return as dictionary for easy import
 def compute_all_analytics(df):
     return {
