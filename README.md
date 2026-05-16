@@ -34,6 +34,7 @@
 * Visualization: matplotlib, seaborn
 * Basic tests: pytest
 * Modular code: 'scr/analysis.py'
+* Data set: https://www.kaggle.com/datasets/hrishitpatil/flight-data-2024
 
 ---
 
