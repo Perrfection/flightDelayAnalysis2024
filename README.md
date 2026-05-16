@@ -2,7 +2,7 @@
 
 ## Key Visualization: Airline Delay Performance
 
-![Airline Delay Performance](visuals/delay_rate_vs_arg_delay.png)
+![Scatter plot comparing airline delay rate (percent of flights delayed) on the vertical axis versus average arrival delay in minutes on the horizontal axis. Each point represents an individual US carrier, with labels or colors identifying carriers; the plot title reads Airline Delay Performance and the axes are labeled Delay rate (%) and Average delay (minutes). The chart has a white background with grid lines and a legend; overall tone is informational and analytical.](visuals/delay_rate_vs_avg_delay.png)
 
 **Overview** Analyzed 7M+ flights to identify which factors contribute most to delays. Operational factors, primarily late aircrafts, are the leading cause and delays compound throughout the day. Airline performance varies significantly in both frequency and severity of delays.
 
@@ -72,7 +72,7 @@ jupyter notebook notebooks/analysis.ipynb
 
 ## Why It Matters
 
-Identifies actionable insights, such as turnaround efficiency and  scheduling, that can reduce delays and improve carrier reliability.
+Identifies actionable insights (such as turnaround efficiency and  scheduling) that can reduce delays and improve carrier reliability.
 
 ---
 
