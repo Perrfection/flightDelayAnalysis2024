@@ -4,7 +4,7 @@
 
 ![Airline Delay Performance](visuals/delay_rate_vs_arg_delay.png)
 
-**Overview** Analyzed 7M+ flights to identify what factors cause delays. Operational factors, such as late aircraft, tend to be the leading cause and delays compound throughout the day. Airline performance varies significantly in both frequency and severity of delays.
+**Overview** Analyzed 7M+ flights to identify which factors contribute most to delays. Operational factors, primarily late aircrafts, are the leading cause and delays compound throughout the day. Airline performance varies significantly in both frequency and severity of delays.
 
 ---
 
@@ -21,47 +21,57 @@
 ## Key Results
 
 * **Primary factor:** Late aircraft delays are the largest contributor to total delay minutes
-* **Compunding effect:** Early flights (5–8 am) have the lowest delays; delays compound later throught the day
+* **Compounding effect:** Early flights (5–8 am) have the lowest delays; delays compound later throughout the day
 * **Airline differences:** Wide spread in performance; some carriers show both higher delay rate and longer delays
-* **Frequency vs. severity:** Some airlines have frequent small large delays , others less frequent and moderate
+* **Frequency vs. severity:** Some airlines have frequent large delays, others less frequent moderate delays
 
 ---
 
 ## Tech
 
 * Python: pandas, numpy
+* Notebook: jupyter
 * Visualization: matplotlib, seaborn
-* Notebook + modular code (`src/analysis.py`) + basic tests (pytest)
+* Basic tests: pytest
+* Modular code: 'scr/analysis.py'
 
 ---
 
 ## Repo Structure
 
-```
-flight-delay-analysis/
-├── notebooks/analysis.ipynb
-├── src/analysis.py
-├── tests/
-├── visuals/
-│   └── airline_performance_scatter.png
-├── requirements.txt
-└── README.md
-```
+flightDelayAnalysis/
+- data
+    - flight_data_2024_sample.csv
+    - flight_data_2024.csv
+- notebooks/
+    - analysis.ipynb
+- src/
+    - analysis.py
+- tests/
+    - test_analysis.py
+- visuals/
+    - avg_delay_by_carrier.png
+    - avg_delay_by_dep_hour.png
+    - delay_rate_by_carrier.png
+    - delay_rate_vs_avg_delay.png (grouped by airline/carrier)
+    - delay_totals_by_delay_type.png
+    - most_common_biggest_delay_type_by_carrier.png
+- README.md
+- requirements_dev.txt
+- requirements.txt
 
 ---
 
 ## How to Run
 
-```bash
 pip install -r requirements.txt
 jupyter notebook notebooks/analysis.ipynb
-```
 
 ---
 
 ## Why It Matters
 
-Pinpoints **actionable levers** (turnaround efficiency, scheduling) that can reduce delays and improve reliability.
+Identifies actionable insights, such as turnaround efficiency and  scheduling, that can reduce delays and improve carrier reliability.
 
 ---
 
