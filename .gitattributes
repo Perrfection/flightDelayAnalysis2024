@@ -2,4 +2,5 @@
 data/flight_data_2024.csv filter=lfs diff=lfs merge=lfs -text
 *.twbx filter=lfs diff=lfs merge=lfs -text
 5eeccda30f111c6e7b7aa3ae76e03a4e43885af1
+*twb filter=lfs diff=lfs merge=lfs -text
 dashboard_data/US[[:space:]]Airline[[:space:]]Delay[[:space:]]Dashboard.twbx filter=lfs diff=lfs merge=lfs -text
