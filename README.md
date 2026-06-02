@@ -27,11 +27,17 @@
 
 ---
 
-## Tech
+## Interactive Dashboard
+
+[View Dashboard on Tableau Public](https://public.tableau.com/app/profile/perrfection.peterkin/viz/USAirlineDelayDashboard/UnderstandingthePrimaryFactorsofU_S_FlightDelays)
+
+---
+
+## Technologies Used
 
 * Python: pandas, numpy
 * Notebook: jupyter
-* Visualization: matplotlib, seaborn
+* Visualization: matplotlib, seaborn, tableau desktop
 * Basic tests: pytest
 * Modular code: 'scr/analysis.py'
 * Data set: https://www.kaggle.com/datasets/hrishitpatil/flight-data-2024
