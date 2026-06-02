@@ -83,7 +83,7 @@ def avg_arr_delay_by_carrier (df):
 # Delay rate by carrier (%)
 
 def delay_rate_pct_by_carrier (df):
-    drpbc = df.groupby('op_unique_carrier')['is_delayed'].mean()
+    drpbc = df.groupby('op_unique_carrier')['is_delayed'].mean()*100
 
     return drpbc
 
@@ -103,6 +103,16 @@ def delay_totals_by_type_per_carrier(df):
 
     return dtbtpc
 
+# Combine key metrics into a single DataFrame for easier dashboard integration
+
+def combine_metrics(df):
+    aadbc = avg_arr_delay_by_carrier(df)
+    drpbc = delay_rate_pct_by_carrier(df)
+    combined = pd.DataFrame({
+        'avg_arr_delay_min': aadbc.rename(index=carrier_code_map),
+        'delay_rate_pct': drpbc.rename(index=carrier_code_map)
+    })
+    return combined
 
 # Compute all analytics and return as dictionary for easy import
 def compute_all_analytics(df):
@@ -111,5 +121,6 @@ def compute_all_analytics(df):
         'avg_arr_delay_by_carrier': avg_arr_delay_by_carrier(df),
         'delay_rate_pct_by_carrier': delay_rate_pct_by_carrier(df),
         'delay_totals_by_delay_type': delay_totals_by_delay_type(df),
-        'delay_totals_by_type_per_carrier': delay_totals_by_type_per_carrier(df)
+        'delay_totals_by_type_per_carrier': delay_totals_by_type_per_carrier(df),   
+        'combined_metrics': combine_metrics(df)
     }
