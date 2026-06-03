@@ -2,11 +2,20 @@
 
 ## Key Visualization: Airline Delay Performance
 
-![Scatter plot comparing airline delay rate (percent of flights delayed) on the vertical axis versus average arrival delay in minutes on the horizontal axis. Each point represents an individual US carrier, with labels or colors identifying carriers; the plot title reads Airline Delay Performance and the axes are labeled Delay rate (%) and Average delay (minutes). The chart has a white background with grid lines and a legend; overall tone is informational and analytical.](visuals/delay_rate_vs_avg_delay.png)
+![Scatter plot comparing airline delay rate (percent of flights delayed) on the vertical axis versus average arrival delay in minutes on the horizontal axis. Each point represents an individual US carrier, with labels; the plot title reads Airline Delay Performance and the axes are labeled Delay rate (%) and Average delay (minutes). The chart has a white background with grid lines and a legend; overall tone is informational and analytical.](visuals/delay_rate_vs_avg_delay.png)
 
 ---
 
 **Overview** Identification of drivers that most contribute to U.S. flight delays using a sample of 7M flights. Operational factors, primarily late aircraft, are the leading cause, and delays compound throughout the day. Airline performance varies significantly in both frequency and severity of delays.
+
+---
+
+## Key Results
+
+* **Primary factor:** Late aircraft delays are the largest contributor to total delay minutes
+* **Compounding effect:** Early flights (5–8 am) have the lowest delays; delays compound later throughout the day
+* **Airline differences:** Wide spread in performance; some carriers show both higher delay rate and longer delays
+* **Frequency vs. severity:** Some airlines have frequent large delays, others less frequent moderate delays
 
 ---
 
@@ -17,15 +26,6 @@
 * **Compared** delay rate (%) vs. average delay (minutes) to separate frequency from severity
 * **Built** clear visualizations and a final comparison view 
 * **Translated** analytical findings into clear, actionable insights.
-
----
-
-## Key Results
-
-* **Primary factor:** Late aircraft delays are the largest contributor to total delay minutes
-* **Compounding effect:** Early flights (5–8 am) have the lowest delays; delays compound later throughout the day
-* **Airline differences:** Wide spread in performance; some carriers show both higher delay rate and longer delays
-* **Frequency vs. severity:** Some airlines have frequent large delays, others less frequent moderate delays
 
 ---
 
