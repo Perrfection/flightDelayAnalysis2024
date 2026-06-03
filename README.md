@@ -31,7 +31,7 @@
 
 ## Interactive Dashboard
 
-[View Dashboard on Tableau Public](https://public.tableau.com/app/profile/perrfection.peterkin/viz/USAirlineDelayDashboard/UnderstandingthePrimaryFactorsofU_S_FlightDelays)
+[View Understanding the Primary Drivers of U.S. Flight Delays on Tableau Public](https://public.tableau.com/app/profile/perrfection.peterkin/viz/USAirlineDelayDashboard/UnderstandingthePrimaryFactorsofU_S_FlightDelays)
 
 ---
 

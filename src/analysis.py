@@ -38,6 +38,8 @@ def clean_data(df):
     
     # Fill NaN values with 0 (assuming no delay if not specified)
     df[delay_columns] = df[delay_columns].fillna(0)
+    df['cancellation_code'] = (df['cancellation_code']).astype(str)
+
 
     return df
 

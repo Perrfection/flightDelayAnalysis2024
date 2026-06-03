@@ -13,10 +13,12 @@ def test_clean_data_removes_nulls():
         'nas_delay': ['5', '10', 'NaN', '0'],
         'security_delay': ['0', '5', '10', 'NaN'],
         'late_aircraft_delay': ['10', '0', '5', 'NaN'],
+        'cancellation_code': ['0', '1', 369, 'NaN']
     })
     
     cleaned = clean_data(df)
     assert cleaned.isnull().sum().sum() == 0  # No null values should remain
+    assert cleaned['cancellation_code'].dtype == 'string'
 
 # Test cases for delay indicator function
 def test_add_delay_indicator():
