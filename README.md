@@ -2,7 +2,7 @@
 
 ## Key Visualization: Airline Delay Performance
 
-<img src="visuals/f_vs_s.png" align="left" width="100">
+<img src="visuals/f_vs_s.png" align="left" width="400">
 
 ---
 
