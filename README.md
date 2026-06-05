@@ -2,7 +2,7 @@
 
 ## Key Visualization: Airline Delay Performance
 
-![Scatter plot comparing airline delay rate (percent of flights delayed) on the vertical axis versus average arrival delay in minutes on the horizontal axis. Each point represents an individual US carrier, with labels; the plot title reads Airline Delay Performance and the axes are labeled Delay rate (%) and Average delay (minutes). The chart has a white background with grid lines and a legend; overall tone is informational and analytical.](visuals/delay_rate_vs_avg_delay.png)
+![Scatter plot comparing airline delay rate (percent of flights delayed) on the vertical axis versus average arrival delay in minutes on the horizontal axis. Each point represents an individual US carrier, with labels; the plot title reads Airline Delay Performance and the axes are labeled Delay rate (%) and Average delay (minutes). The chart has a white background with grid lines and a legend; overall tone is informational and analytical.](visuals/f_vs_s.png)
 
 ---
 
@@ -10,11 +10,11 @@
 
 ---
 
-## Key Results
+## Key Takeaways
 
 * **Primary factor:** Late aircraft delays are the largest contributor to total delay minutes
 * **Compounding effect:** Early flights (5–8 am) have the lowest delays; delays compound later throughout the day
-* **Airline differences:** Wide spread in performance; some carriers show both higher delay rate and longer delays
+* **Airline differences:** Outliers emphasize widespread differences in performance across carrier operations 
 * **Frequency vs. severity:** Some airlines have frequent large delays, others less frequent moderate delays
 
 ---
