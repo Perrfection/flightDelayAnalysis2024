@@ -2,7 +2,8 @@
 
 ## Key Visualization: Airline Delay Performance
 
-<img src="visuals/f_vs_s.png" align="left" width="400">
+![Scatter plot comparing airline delay rate (percent of flights delayed) on the vertical axis versus average arrival delay in minutes on the horizontal axis. Each point represents an individual US carrier, with labels; the plot title reads Airline Delay Performance and the axes are labeled Delay rate (%) and Average delay (minutes). The chart has a white background with grid lines and a legend; overall tone is informational and analytical.](visuals/f_vs_s.png)
+
 
 ---
 
